@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
-
+  min-width: 820px;
   background-color: #e4f5eb;
 }
 .header-nav {
@@ -11,17 +11,13 @@
   margin-left: 30px;
 }
 .header-nav-logo {
-  margin-left: 40px;
+  margin-left: 35px;
   color: #242323;
-  width: 84.27px;
-  height: 14.87px;
-  left: 252.82px;
-  top: 71.39px;
 
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 23.7952px;
+  font-size: 23px;
   line-height: 15px;
 }
 .header-div-nav {
@@ -57,5 +53,7 @@
 }
 .content {
   display: flex;
-  background-color: aqua;
+  background-color: #e4f5eb;
+  min-width: 820px;
+  height: 500px;
 }
