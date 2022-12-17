@@ -51,21 +51,31 @@
 .u::first-letter {
   color: #45b871;
 }
-.content {
+.content-box {
   display: flex;
   background-color: #e4f5eb;
   min-width: 820px;
   height: 800px;
 }
-.content-box {
+.content-text {
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .content-Htext {
+  width: 250px;
 }
 .content-Ptext {
+  width: 460px;
 }
 .content-img-girl {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  height: 70%;
 }
-.footer {
+/* .footer {
 }
 .footer-content-box {
 }
@@ -76,4 +86,4 @@
 .footer-content-buttonFirst {
 }
 .footer-content-buttonSecond {
-}
+} */
