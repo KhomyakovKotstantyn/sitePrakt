@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/header.css" />
@@ -19,7 +27,7 @@
       <!-- Элементы навигации -->
       <nav class="header-nav">
         <div class="header-div-nav">
-          <a class="header-nav-element" href="">Home</a>
+          <a class="header-nav-element-home" href="">Home</a>
         </div>
         <div class="header-div-nav">
           <a class="header-nav-element" href="">All Courses</a>
@@ -30,31 +38,53 @@
         <div class="header-div-nav">
           <a class="header-nav-element" href="">Blog</a>
         </div>
-        <!-- Регистрация и кнопк -->
-
-        <div class="header-nav-signIn">
-          <a class="header-signIn" href=""> Sign in </a>
-          <button class="header-nav-button">Free Trial</button>
-        </div>
       </nav>
+      <!-- Регистрация и кнопка -->
+      <div class="header-nav-signIn">
+        <a class="header-signIn" href=""> Sign in </a>
+        <button class="header-nav-button">
+          <p class="header-nav-button-text">Free Trial</p>
+        </button>
+      </div>
     </header>
     <!-- Блок контента -->
     <div class="content-box">
-      <div class="content-text">
-        <div class="content-Htext">
-          <h1>Anytime,anywhare Develop your skill by Online</h1>
+      <div class="content-text-button">
+        <div class="content-text">
+          <!-- Заголовок -->
+          <div class="content-Htext">
+            <h1>Anytime,anywhare <br />Develop your skill <br />by Online</h1>
+          </div>
+          <!-- Текст -->
+          <div class="content-Ptext">
+            <p>
+              Online education is a form of education where students use their
+              home <br />computers through the internet. For many nontraditional
+              students, <br />among them all those who want to continue.
+            </p>
+          </div>
         </div>
-        <div class="content-Ptext">
-          <p>
-            Online education is a form of education where students use their
-            home computers through the internet. For many nontraditional
-            students, among them all those who want to continue.
-          </p>
+        <!-- Кнопки под текстом -->
+        <div class="content-2-button">
+          <button class="content-button">
+            <p class="content-button-text">All Courses</p>
+          </button>
+          <div class="content-play-button"></div>
+          <div class="play-button">
+            <img
+              class="play-button-element"
+              src="/sitePrakt/img/ButtonPlayVideo.svg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <p class="content-text-playVideo">Play Video</p>
         </div>
       </div>
       <div class="content-img-girl">
         <!-- Изображение девушки с блокнотом -->
         <img
+          class="content-img-girl-element"
           src="/sitePrakt/img/WoomanBigg.png"
           alt="The girl with the red notebook"
         />
@@ -66,12 +96,27 @@
       <div class="footer-content-box">
         <!-- Зеленый баннер футера -->
         <div class="footer-content-banner">
+          <!-- <img src="/sitePrakt/img/Footer.svg" alt="" /> -->
           <!-- НАполнение баннера -->
-          <div class="footer-content-text"></div>
-          <div class="footer-content-buttonFirst">
-            <button></button>
+          <div class="footer-content-text">
+            <h1 class="footer-content-text-element">
+              Sign up & Enroll now,and <br />Get Free Trial For 20Days
+            </h1>
           </div>
-          <div class="footer-content-buttonSecond"></div>
+          <div class="footer-content-buttons">
+            <div class="footer-content-buttonFirst">
+              <button class="footer-content-buttonFirst-element">
+                <p class="footer-content-buttonFirst-element-text">Sigh up</p>
+              </button>
+            </div>
+            <div class="footer-content-buttonSecond">
+              <button class="footer-content-buttonSecond-element">
+                <p class="footer-content-buttonSecond-element-text">
+                  Start Free Trial
+                </p>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

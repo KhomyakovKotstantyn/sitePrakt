@@ -1,14 +1,13 @@
 .header {
   display: flex;
   justify-content: space-around;
-  min-width: 820px;
   background-color: #e4f5eb;
+  min-width: 820px;
 }
 .header-nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-left: 30px;
+  margin-left: 70px;
 }
 .header-nav-logo {
   margin-left: 35px;
@@ -21,31 +20,58 @@
   line-height: 15px;
 }
 .header-div-nav {
-  display: flex;
 }
 .header-nav-element {
   padding-left: 40px;
   color: #575859;
   text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+}
+.header-nav-element-home {
+  padding-left: 40px;
+  color: #575859;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
 }
 .header-nav-signIn {
-  padding-left: 70px;
+  display: flex;
+  align-items: center;
+  /* margin-right: 70px; */
 }
 .header-signIn {
   color: #575859;
   text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
 }
 .header-nav-button {
-  color: #ffffff;
-  background-color: #45b871;
-  border-radius: 3px;
-  border: none;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 15px;
   width: 137px;
   height: 55px;
+
+  background: #45b871;
+  border-radius: 5px;
   margin-left: 40px;
+  border: none;
+}
+.header-nav-button-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+
+  color: #ffffff;
 }
 
 .u::first-letter {
@@ -53,37 +79,155 @@
 }
 .content-box {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   background-color: #e4f5eb;
   min-width: 820px;
-  height: 800px;
+}
+.content-text-button {
+  display: flex;
+  flex-direction: column;
+  padding-left: 135px;
 }
 .content-text {
-  padding-left: 150px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 .content-Htext {
-  width: 250px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 70px;
+
+  color: #242323;
 }
 .content-Ptext {
-  width: 460px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #6c6c6a;
 }
-.content-img-girl {
+.content-2-button {
   display: flex;
-  justify-content: flex-end;
-  width: 70%;
-  height: 70%;
+  align-items: center;
 }
-/* .footer {
+.content-button {
+  color: #ffffff;
+  background-color: #45b871;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  line-height: 15px;
+  width: 202px;
+  height: 72px;
+}
+
+.content-button-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+.content-text-playVideo {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+
+  color: #242323;
+}
+.play-button {
+}
+.play-button-element {
+  width: 110px;
+  padding-top: 10px;
+}
+.content-text-button {
+}
+
+.content-img-girl {
+}
+.content-img-girl-element {
+  /* background-color: #575859; */
+  width: 800px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-content-box {
 }
 .footer-content-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 110px;
+  margin-bottom: 110px;
+  margin-left: 255px;
+  margin-right: 255px;
+  background-image: url(/sitePrakt/img/Footer.svg);
+  width: 1425px;
+  height: 452px;
 }
 .footer-content-text {
+}
+.footer-content-text-element {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.footer-content-buttons {
+  display: flex;
+  align-items: center;
 }
 .footer-content-buttonFirst {
 }
 .footer-content-buttonSecond {
-} */
+}
+.footer-content-buttonFirst-element {
+  border: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  padding: 0px 30px 0px 30px;
+}
+.footer-content-buttonFirst-element-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  /* or 75% */
+
+  color: #ffffff;
+}
+.footer-content-buttonSecond-element {
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ffffff00;
+  margin-left: 30px;
+}
+.footer-content-buttonSecond-element-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  /* identical to box height, or 75% */
+
+  color: #242323;
+}
